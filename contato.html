@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./contato.css">
+    <script type="text/javascript" src="./script.js"></script>
+    <title>Contato</title>
+</head>
+<header>
+    <div class="Menu">
+        <nav>
+            <ul>
+                <li>
+                    <a href="./inicial.html">Página inicial</a>
+                </li>
+                <li>
+                    <a href="./Projetos.html">Projetos</a>
+                </li>
+            </ul>
+            <img src="./Imagens/imgcontato.png" alt="">
+        </nav>
+    </div>
+</header>
+<body>
+    <p>
+        <h1>Conte para nós o que você achou do conteúdo!</h1>
+    </p>
+    <p>
+        <div id="form">
+            <table>
+            <form action="agradecimento.html" method="post">
+
+                <label for="name">Nome completo: </label>        
+                <input type="text" id="name" name="name" required>
+            
+                  
+                <label for="email">Data de nascimento: </label>    
+                <input type="date" id="email" name="email" required>
+                <br>
+                <br>
+
+                <label for="email">Telefone: </label>    
+                <input type="number" id="email" name="email" required>
+                <br>
+                <br>
+            
+                <label for="Sexo">Gênero: </label>
+                <input type="radio" id="male" name="gender" value="male" required>
+                <label for="male">Masculino</label>
+                <input type="radio" id="female" name="gender" value="female" required>
+                <label for="female">Feminino</label>    
+                <br>
+                <br>
+                <label for="school">Escolaridade: </label>    
+                <select id="scholl" required>
+                    <option value="00">Selecione</option>
+                    <option value="fi">Ensino fundamental incompleto</option>
+                    <option value="fc">Ensino fundamental completo</option>
+                    <option value="mi">Ensino médio incompleto</option>
+                    <option value="mc">Ensino médio completo</option>
+                    <option value="si">Ensino superior incompleto</option>
+                    <option value="sp">Ensino superior completo</option>
+                    <option value="ce">Cursando ensino superior</option>
+                </select>
+                <br>
+                <br>
+
+                <label for="email">Email:</label>    
+                <input type="email" id="email" name="email" required>
+
+
+                <label for="message">Mensagem:</label>
+                <textarea id="message" name="message" rows="4" required></textarea>
+              
+                <button onclick="window.open('agradecimento.html');">Enviar</button>
+
+                </table>
+            </form>
+        </div>
+    </p>
+    <br>
+</body>
+</html>

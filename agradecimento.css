@@ -1,0 +1,16 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: black;
+}
+.obrigado {
+    background-color: #fff;
+    padding: 50px;
+    border-radius: 10px;
+    width: 400px;
+    margin: 200px auto;
+    text-align: center;
+
+}
+p {
+    color: rgb(178, 34, 34);
+}

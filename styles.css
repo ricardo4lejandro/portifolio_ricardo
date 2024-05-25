@@ -1,0 +1,19 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: black;
+}
+#clickButton {
+    padding: 20px 40px;
+    font-size: 24px;
+    cursor: pointer;
+}
+button{
+    background-color: rgb(178,34,34);
+    color: whitesmoke;
+    border-radius: 15%;
+}
